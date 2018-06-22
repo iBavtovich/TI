@@ -1,7 +1,5 @@
 package task2;
 
-import java.lang.reflect.Array;
-
 public class StackOnArray<T> implements Stack<T> {
 
     T[] values;

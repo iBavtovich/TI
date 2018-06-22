@@ -7,9 +7,9 @@ public class StackLinkedList<T> implements Stack<T>  {
 
     public boolean push(T value) {
         if (isEmpty()) {
-            last = new Node<T>(value);
+            last = new Node<>(value);
         } else {
-            last = new Node<T>(value, last);
+            last = new Node<>(value, last);
         }
         size++;
         return true;
